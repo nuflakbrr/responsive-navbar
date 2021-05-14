@@ -66,6 +66,7 @@ nav ul li a:hover {
     height: 20px;
     justify-content: space-between;
     position: relative;
+    z-index: 2;
 }
 
 .menu-toggle input {
@@ -75,7 +76,7 @@ nav ul li a:hover {
     left: -10px;
     top: -6px;
     opacity: 0;
-    z-index: 2;
+    z-index: 3;
     cursor: pointer;
 }
 
@@ -162,7 +163,7 @@ nav ul li a:hover {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        z-index: -1;
+        z-index: 1;
         background-color: #0881a3;
         transform: translateX(100%);
         transition: all 1s;
